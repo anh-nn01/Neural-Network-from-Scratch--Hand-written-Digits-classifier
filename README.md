@@ -8,6 +8,6 @@ Some hyperparameters which I use during training:
 + α_decay = 10       : decay rate of learning rate after each epoch;
 + β1 = 0.8           : used in momentum gradient descent in adam;
 + β2 = 0.999         : used in adam;
-+ L = [400, 100, 10] : number of hidden layers + output layer;
++ L = [400, 100, 10] : number of hidden units in each layers and output layer;
 + keep_prob = 0.5    : keep probability after in each hidden layers (do not apply to input and output layer);
 + mini_batch size = 2^8.
