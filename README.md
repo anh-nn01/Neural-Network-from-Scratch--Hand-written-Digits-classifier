@@ -3,7 +3,7 @@ This is my first Deep Learning project, which is a MNIST hand-written digits cla
 
 This model consists of 2 hidden layers, each with 400 hidden units and 100 hidden units, respectively. The layers are fully connected, so this is a standard Neural Network. Given the size, this Neural Network is relatively small. The weights and biases are initialized by He et. al (2015) initialization. Each parameters is updated by Adaptive Moment Optimization (Adam) after processing each mini-batch. To prevent potential overfitting, Drop-out regularization is used, with keep probability in each layer is 0.5 (50%). All hidden units use ReLU activation function, while the output layer use softmax activation function.
 
-+) Some hyperparameters which I use during training:
+* Some hyperparameters which I use during training:
 
 + α = 0.005          : learning rate;
 + α_decay = 10       : decay rate of learning rate after each epoch;
