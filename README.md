@@ -5,7 +5,7 @@ This model consists of 2 hidden layers, each with 400 hidden units and 100 hidde
 
 Some hyperparameters which I use during training:
 + α = 0.005          : learning rate;
-+ α_decay = 2       : decay rate of learning rate after each epoch;
++ α_decay = 0.00001  : decay rate of learning rate after each epoch;
 + β1 = 0.8           : used in momentum gradient descent in adam;
 + β2 = 0.999         : used RMSprop in adam;
 + L = [400, 100, 10] : number of hidden units in each layers and output layer;
