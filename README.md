@@ -20,11 +20,12 @@ Some hyperparameters which I use during training:
 <img src = "Useful Functions/4. Forward_Prop.png"></br></br></br></br>
 <img src = "Useful Functions/5. Total Loss Function.png"></br></br></br></br>
 <img src = "Useful Functions/6. Softmax Activation.png"></br></br></br></br>
-<img src = "Useful Functions/7. Backprop.png"></br></br></br></br>
 <img src = "Useful Functions/8. Backprop1.png"></br></br></br></br>
 <img src = "Useful Functions/9. Backprop2.png"></br></br></br></br>
 <img src = "Useful Functions/10. Backprop3.png"></br></br></br></br>
 <img src = "Useful Functions/11. Backprop4.png"></br></br></br></br>
 <img src = "Useful Functions/12. Backprop5.png"></br></br></br></br>
+<img src = "Useful Functions/14. Update.png"></br></br></br></br>
+<img src = "Useful Functions/15. Update.png"></br></br></br></br>
 
 **Note**: The functions above are written in LaTEX Math Editor online, you can either use the online editor or use my written functions by going to the folder "Useful functions" -> download
