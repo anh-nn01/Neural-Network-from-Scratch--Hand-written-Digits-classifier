@@ -11,3 +11,7 @@ Some hyperparameters which I use during training:
 + **L = [400, 100, 10]** : number of hidden units in each layers and output layer;
 + **keep_prob = 0.4, 0.5** : keep probability after in first and second hidden layers (do not apply to input and output layer);
 + **mini_batch size** = 2^8.
+
+**Explanation of What behind the scene (How Neural Network learns and How to implement it from scratch)**
+**To be updated**
+<img src = "Useful Functions/1. Forward Propagation 1.png">
