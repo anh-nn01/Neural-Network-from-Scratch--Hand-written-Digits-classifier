@@ -13,5 +13,16 @@ Some hyperparameters which I use during training:
 + **mini_batch size** = 2^8.
 
 **Explanation of What behind the scene (How Neural Network learns and How to implement it from scratch)**</br>
-**To be updated**</br>
-<img src = "Useful Functions/1. Forward Propagation 1.png">
+**To be updated**</br></br>
+<img src = "Useful Functions/1. Forward Propagation 1.png"></br>
+<img src = "Useful Functions/2. Forward Propagation 2.png.png"></br>
+<img src = "Useful Functions/3. Activation Matrix.png"></br>
+<img src = "Useful Functions/4. Forward_Prop.png"></br>
+<img src = "Useful Functions/5. Total Loss Function.png"></br>
+<img src = "Useful Functions/6. Softmax Activation.png"></br>
+<img src = "Useful Functions/7. Backprop.png"></br>
+<img src = "Useful Functions/8. Backprop1.png"></br>
+<img src = "Useful Functions/9. Backprop2.png"></br>
+<img src = "Useful Functions/10. Backprop3.png"></br>
+<img src = "Useful Functions/11. Backprop4.png"></br>
+<img src = "Useful Functions/12. Backprop5.png"></br>
