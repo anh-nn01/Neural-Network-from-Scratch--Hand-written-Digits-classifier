@@ -13,18 +13,18 @@ Some hyperparameters which I use during training:
 + **mini_batch size** = 2^8.
 
 **Explanation of What behind the scene (How Neural Network learns and How to implement it from scratch)**</br>
-**To be updated** (I have too many quizzes on school :(()</br></br>
-<img src = "Useful Functions/1. Forward Propagation 1.png"></br></br>
-<img src = "Useful Functions/2. Forward Propagation 2.png"></br></br>
-<img src = "Useful Functions/3. Activation Matrix.png"></br></br>
-<img src = "Useful Functions/4. Forward_Prop.png"></br></br>
-<img src = "Useful Functions/5. Total Loss Function.png"></br></br>
-<img src = "Useful Functions/6. Softmax Activation.png"></br></br>
-<img src = "Useful Functions/7. Backprop.png"></br></br>
-<img src = "Useful Functions/8. Backprop1.png"></br></br>
-<img src = "Useful Functions/9. Backprop2.png"></br></br>
-<img src = "Useful Functions/10. Backprop3.png"></br></br>
-<img src = "Useful Functions/11. Backprop4.png"></br></br>
-<img src = "Useful Functions/12. Backprop5.png"></br></br>
+**To be updated** (I have too many quizzes on school :(()</br></br></br></br>
+<img src = "Useful Functions/1. Forward Propagation 1.png"></br></br></br></br>
+<img src = "Useful Functions/2. Forward Propagation 2.png"></br></br></br></br>
+<img src = "Useful Functions/3. Activation Matrix.png"></br></br></br></br>
+<img src = "Useful Functions/4. Forward_Prop.png"></br></br></br></br>
+<img src = "Useful Functions/5. Total Loss Function.png"></br></br></br></br>
+<img src = "Useful Functions/6. Softmax Activation.png"></br></br></br></br>
+<img src = "Useful Functions/7. Backprop.png"></br></br></br></br>
+<img src = "Useful Functions/8. Backprop1.png"></br></br></br></br>
+<img src = "Useful Functions/9. Backprop2.png"></br></br></br></br>
+<img src = "Useful Functions/10. Backprop3.png"></br></br></br></br>
+<img src = "Useful Functions/11. Backprop4.png"></br></br></br></br>
+<img src = "Useful Functions/12. Backprop5.png"></br></br></br></br>
 
 **Note**: The functions above are written in LaTEX Math Editor online, you can either use the online editor or use my written functions by going to the folder "Useful functions" -> download
