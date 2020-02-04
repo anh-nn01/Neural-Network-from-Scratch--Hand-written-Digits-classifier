@@ -27,4 +27,4 @@ Some hyperparameters which I use during training:
 <img src = "Useful Functions/11. Backprop4.png"></br></br>
 <img src = "Useful Functions/12. Backprop5.png"></br></br>
 
-**Note**: The functions above are written in LaTEX Math Editor online, you can either use that or use my written function by going to the folder "Useful functions" -> download
+**Note**: The functions above are written in LaTEX Math Editor online, you can either use the online editor or use my written functions by going to the folder "Useful functions" -> download
