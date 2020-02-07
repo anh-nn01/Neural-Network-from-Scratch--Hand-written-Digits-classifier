@@ -15,9 +15,11 @@ Some hyperparameters which I use during training:
 **Explanation of What behind the scene (How Neural Network learns and How to implement it from scratch)**</br></br>
 **To be updated** (I have too many quizzes on school :(()</br></br></br></br>
 
-First of all, we perform simple forward propagation using the initialized parameters to get the output. To keep everything simple, for now we only consider a single vector representing a single training example. We feed that vector as an input to the neural network to get the output. </br>
-Suppose a_l_i is the activation of the training data i-th at layer l-th in the neural network. In our convention, a_0_i is the input data for the training example i-th (or a_0_i = x_i). In each layer, the feature vector from layer l is mapped to a new feature vector at layer l+1. We can perfrom each step of mapping from layer l to layer l+1 using the formula below:  </br></br>
-<img src = "Useful Functions/1. Forward Propagation 1.png"></br></br></br></br>
+1) First of all, we perform simple forward propagation using the initialized parameters to get the output. To keep everything simple, for now we only consider a single vector representing a single training example. We feed that vector as an input to the neural network to get the output. </br>
+Suppose a_l_i is the activation of the training data i-th at layer l-th in the neural network. In our convention, a_0_i is the input data for the training example i-th (or a_0_i = x_i). In each layer, the feature vector from layer l-1 is mapped to a new feature vector at layer l. We can perfrom each step of mapping from layer l-1 to layer l using the formula below:  </br></br>
+<img src = "Useful Functions/1. Forward Propagation 1.png"></br>
+Where W_l is the parameter matrix mapping features from layer l-1 to layer l  
+</br></br></br></br>
 <img src = "Useful Functions/2. Forward Propagation 2.png"></br></br></br></br>
 <img src = "Useful Functions/3. Activation Matrix.png"></br></br></br></br>
 <img src = "Useful Functions/4. Forward_Prop.png"></br></br></br></br>
