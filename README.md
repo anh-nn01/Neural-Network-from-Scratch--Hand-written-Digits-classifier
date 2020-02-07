@@ -31,7 +31,7 @@ This function represents something somewhat similar to how human brain works. Wh
 </br></br></br></br>
 
 3) So far we have understand how to perform forward propagation for a single training example. However, we get many training example in the data, not just one. How can we perform forward propagation for all of the training examples in the data set?</br>
-It turns out that it is pretty similar to what we have done in forward propagation for a single training example: We just need to put  feature vectors of each training example together to form a feature matrix, each column of the matrix correspond to the activations of one training example at layer l. Formally, column j of the feature matrix is the activations of training example i-th at layer l-th.
+It turns out that it is pretty similar to what we have done in forward propagation for a single training example: We just need to put  feature vectors of each training example together to form a feature matrix, each column of the matrix correspond to the activations of one training example at layer l. Formally, column j of the feature matrix A_l is the activations of training example i-th at layer l-th: </br>
 <img src = "Useful Functions/3. Activation Matrix.png"></br></br></br></br>
 <img src = "Useful Functions/4. Forward_Prop.png"></br></br></br></br>
 <img src = "Useful Functions/5. Total Loss Function.png"></br></br></br></br>
