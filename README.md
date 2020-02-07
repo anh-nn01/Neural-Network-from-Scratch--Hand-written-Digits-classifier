@@ -24,7 +24,7 @@ Where W_l is the parameter matrix mapping features from layer l-1 to layer l, b_
 2) Nonlinear function: For all hidden layers (not the ouput layer), we can apply nonlinearity by using the ReLU function (Rectified Linear Unit) like below to get the activations at layer l:</br></br>
 <img src = "Useful Functions/2. Forward Propagation 2.png"></br></br>
 The function looks something like this:</br></br>
-
+<img src = "Useful Functions/Relu.png"></br></br>
 </br></br></br></br>
 <img src = "Useful Functions/3. Activation Matrix.png"></br></br></br></br>
 <img src = "Useful Functions/4. Forward_Prop.png"></br></br></br></br>
