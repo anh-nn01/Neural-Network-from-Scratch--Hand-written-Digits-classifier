@@ -14,6 +14,9 @@ Some hyperparameters which I use during training:
 
 **Explanation of What behind the scene (How Neural Network learns and How to implement it from scratch)**</br></br>
 **To be updated** (I have too many quizzes on school :(()</br></br></br></br>
+
+First of all, we perform simple forward propagation using the initialized parameters to get the output. To keep everything simple, for now we only consider a single vector representing a single training example. We feed that vector as an input to the neural network to get the output. </br>
+Suppose a[l](i) is the activation of the training data i-th at layer l-th in the neural network. In our convention, a[0](i) is the input data for the training example i-th (or a[0](i) = x(i)) </br>
 <img src = "Useful Functions/1. Forward Propagation 1.png"></br></br></br></br>
 <img src = "Useful Functions/2. Forward Propagation 2.png"></br></br></br></br>
 <img src = "Useful Functions/3. Activation Matrix.png"></br></br></br></br>
