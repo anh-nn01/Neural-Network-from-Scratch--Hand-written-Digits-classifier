@@ -25,7 +25,8 @@ Where W_l is the parameter matrix mapping features from layer l-1 to layer l, b_
 <img src = "Useful Functions/2. Forward Propagation 2.png"></br></br>
 The function looks something like this:</br></br>
 <img src = "Useful Functions/Relu.png"></br></br>
-Now we have can get activations at layer l from the activations at the previous layer, l-1. We can repeat this process until we reach the output layer. However, one difference is instead of using ReLU activation function, the output layer uses softmax activation function, which we will discuss later.
+Now we have can get activations at layer l from the activations at the previous layer, l-1. We can repeat this process until we reach the output layer. However, one difference is instead of using ReLU activation function, the output layer uses softmax activation function, which we will discuss later.<\br>
+**Note**: Intuition of the ReLU activation function:
 </br></br></br></br>
 <img src = "Useful Functions/3. Activation Matrix.png"></br></br></br></br>
 <img src = "Useful Functions/4. Forward_Prop.png"></br></br></br></br>
