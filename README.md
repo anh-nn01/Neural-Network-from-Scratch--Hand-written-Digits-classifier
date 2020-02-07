@@ -21,8 +21,11 @@ Suppose a_l_i is the activation of the training data i-th at layer l-th in the n
 Where W_l is the parameter matrix mapping features from layer l-1 to layer l, b_l is the bias vector. W_l and b_l are all parameters that can be optimized to improve the performance of the model. Note that z_l is not the activation of the layer l, but is just the first step. We can then use the result of z_l to compute the activation at layer l a_l by applying nonlinear function on z_l:
 </br></br></br></br>
 
-Nonlinear function: For all hidden layers (not the ouput layer), we can apply nonlinearity by using the ReLU function (Rectified Linear Unit) like below:</br></br>
-<img src = "Useful Functions/2. Forward Propagation 2.png"></br></br></br></br>
+2) Nonlinear function: For all hidden layers (not the ouput layer), we can apply nonlinearity by using the ReLU function (Rectified Linear Unit) like below to get the activations at layer l:</br></br>
+<img src = "Useful Functions/2. Forward Propagation 2.png"></br></br>
+The function looks something like this:</br></br>
+
+</br></br></br></br>
 <img src = "Useful Functions/3. Activation Matrix.png"></br></br></br></br>
 <img src = "Useful Functions/4. Forward_Prop.png"></br></br></br></br>
 <img src = "Useful Functions/5. Total Loss Function.png"></br></br></br></br>
