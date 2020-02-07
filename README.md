@@ -15,9 +15,9 @@ Some hyperparameters which I use during training:
 **Explanation of What behind the scene (How Neural Network learns and How to implement it from scratch)**</br></br>
 **To be updated** (I have too many quizzes on school :(()</br></br></br></br>
 <img src = "Useful Functions/Neural Network.png"></br></br>
-1) First of all, we perform simple forward propagation using the initialized parameters to get the output. To keep everything simple, for now we only consider a single vector representing a single training example. We feed that vector as an input to the neural network to get the output. </br>
+1) First of all, we perform simple forward propagation using the initialized parameters to get the output. To keep everything simple, for now we only consider a single vector representing a single training example. We feed that vector as an input to the neural network to get the output. </br></br>
 Suppose a_l_i is the activation of the training data i-th at layer l-th in the neural network. In our convention, a_0_i is the input data for the training example i-th (or a_0_i = x_i). In each layer, the feature vector from layer l-1 is mapped to a new feature vector at layer l. We can perfrom each step of mapping from layer l-1 to layer l using the formula below:  </br></br>
-<img src = "Useful Functions/1. Forward Propagation 1.png"></br>
+<img src = "Useful Functions/1. Forward Propagation 1.png"></br></br>
 Where W_l is the parameter matrix mapping features from layer l-1 to layer l, b_l is the bias vector. W_l and b_l are all parameters that can be optimized to improve the performance of the model. Note that z_l is not the activation of the layer l, but is just the first step. We can then use the result of z_l to compute the activation at layer l a_l by applying nonlinear function on z_l:
 </br></br></br></br>
 
@@ -26,12 +26,12 @@ Where W_l is the parameter matrix mapping features from layer l-1 to layer l, b_
 The function looks something like this:</br></br>
 <img src = "Useful Functions/Relu.png"></br></br>
 Now we have can get activations at layer l from the activations at the previous layer, l-1. We can repeat this process until we reach the output layer. However, one difference is instead of using ReLU activation function, the output layer uses softmax activation function, which we will discuss later.</br>
-**Note**: Intuition of the ReLU activation function: This is my intuition of the ReLU activation function:</br>
+**Note**: Intuition of the ReLU activation function: This is my intuition of the ReLU activation function:</br></br>
 This function represents something somewhat similar to how human brain works. When doing some tasks, such as looking at an image and recognize whether he or she is your friend or not, there are some sets of neurons that will be activated strongly if it is your friend, inactivated otherwise. The ReLU function maps each input to an output between 0 and +inf, which means the neuron can be either inactivated (zero) or activated weekly (small positive number) or strongly activated (very large positive number). This is the intuition for the ReLU activation function. There are also some advantages of ReLu function over other non-linear function like Sigmoid and Tanh, but we will not discuss specifically what are the advantages here.
 </br></br></br></br>
 
 3) So far we have understand how to perform forward propagation for a single training example. However, we get many training example in the data, not just one. How can we perform forward propagation for all of the training examples in the data set?</br>
-It turns out that it is pretty similar to what we have done in forward propagation for a single training example: We just need to put  feature vectors of each training example together to form a feature matrix, each column of the matrix correspond to the activations of one training example at layer l. Formally, column j of the feature matrix A_l is the activations of training example i-th at layer l-th: </br>
+It turns out that it is pretty similar to what we have done in forward propagation for a single training example: We just need to put  feature vectors of each training example together to form a feature matrix, each column of the matrix correspond to the activations of one training example at layer l. Formally, column j of the feature matrix A_l is the activations of training example i-th at layer l-th: </br></br>
 <img src = "Useful Functions/3. Activation Matrix.png"></br></br></br></br>
 <img src = "Useful Functions/4. Forward_Prop.png"></br></br></br></br>
 <img src = "Useful Functions/5. Total Loss Function.png"></br></br></br></br>
