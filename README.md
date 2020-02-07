@@ -37,6 +37,7 @@ It turns out that it is pretty similar to what we have done in forward propagati
 4) Performing Forward Propagation for all Training example:</br>
 It is very similar to the formula at section 1) and 2). We just change a vector of single training example to a matrix of multiple training example. We simply expand the number of column while keeping the dimension of each column (number of rows in each column)</br></br>
 <img src = "Useful Functions/4. Forward_Prop.png"></br></br></br></br>
+5) Unlike the activations in hidden layers, the output layer use softmax as its non-linear function instead of ReLu. This ensure that each output is between 0 and 1, with probability closer to 1 correspond to higher chance of a training example belongs to one specific class, closer to 0 otherwise. The total probabilities that a training example belong to one specific class is equal to 1, and we will take class with highest probability to assign the training example to such class. This is why the function is call "softmax".</br></br>
 <img src = "Useful Functions/6. Softmax Activation.png"></br></br></br></br>
 <img src = "Useful Functions/5. Total Loss Function.png"></br></br></br></br>
 <img src = "Useful Functions/8. Backprop1.png"></br></br></br></br>
