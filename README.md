@@ -35,7 +35,7 @@ It turns out that it is pretty similar to what we have done in forward propagati
 <img src = "Useful Functions/3. Activation Matrix.png"></br></br></br></br>
 
 4) Performing Forward Propagation for all Training example:</br>
-It is very similar to the formular at section 1). We just change a vector of single training example to a matrix of multiple training example. We just simple expand the number of column while keeping the dimension of each column (number of rows in each column)
+It is very similar to the formula at section 1) and 2). We just change a vector of single training example to a matrix of multiple training example. We simply expand the number of column while keeping the dimension of each column (number of rows in each column)</br></br>
 <img src = "Useful Functions/4. Forward_Prop.png"></br></br></br></br>
 <img src = "Useful Functions/5. Total Loss Function.png"></br></br></br></br>
 <img src = "Useful Functions/6. Softmax Activation.png"></br></br></br></br>
