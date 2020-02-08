@@ -62,7 +62,7 @@ By having a cost function as an objective for the optimization, we can apply var
 <img src = "Useful Functions/12. Backprop5.png"></br></br></br></br>
 
 8. After finding the correct gradients for each parameters, the final step is to update each parameters: </br></br>
-<img src = "Useful Functions/14. Update.png"></br></br></br></br>
-<img src = "Useful Functions/15. Update.png"></br></br></br></br>
+<img src = "Useful Functions/Update1.png"></br></br></br></br>
+<img src = "Useful Functions/Update2.png"></br></br></br></br>
 
 **Note**: The functions above are written in LaTEX Math Editor online, you can either use the online editor or use my written functions by going to the folder "Useful functions" -> download
