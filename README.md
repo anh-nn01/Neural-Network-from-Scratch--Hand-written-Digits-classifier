@@ -40,8 +40,17 @@ It is very similar to the formula at section 1) and 2). We just change a vector 
 5) Unlike the activations in hidden layers, the output layer use softmax function as its non-linear function instead of ReLu. This function produces outputs between 0 and 1, with probability closer to 1 correspond to higher chance of a training example belongs to one specific class, closer to 0 otherwise. The total probabilities that a training example belong to one specific class is equal to 1, and we will take class with highest probability to assign the training example to such class. This is why the function is called "softmax".</br></br>
 <img src = "Useful Functions/6. Softmax Activation.png"></br></br></br></br>
 
-After performing forward propagation on the entire training set, we get the outputs for each training example, which is the probabilites that a training example belongs to a class. The outputs produced by the current model might have very high error compared to the ground truth, and we need to define a function to measure the error and to minimize such error so that the model achieve the optimal performance. Such function is called the Cost function, as defined below: </br></br>
-<img src = "Useful Functions/5. Total Loss Function.png"></br></br></br></br>
+6) After performing forward propagation on the entire training set, we get the outputs for each training example, which is the probabilites that a training example belongs to a class. The outputs produced by the current model might have very high error compared to the ground truth, and we need to define a function to measure the error and to minimize such error so that the model achieve the optimal performance. Such function is called the Cost function, as defined below: </br></br>
+<img src = "Useful Functions/5. Total Loss Function.png"></br></br>
+Some might wonder why the cost function looks like this. Here a brief explanation:</br></br>
+We want the error to be large when the model produce incorrect output and to be low otherwise. For example, if the neural network sees a man and it classifies him as a car, then we want the error to be high (indicating the model is not doing as well as expectation), but if if correctly classifies a man as a man, the error should be low.</br></br>
+In a formal definition, if y_hat is the same as y (correctly classify), then the larger the y_hat, the lower the error (better confidence in correct classification). However, if y_hat is different from y (wrong classification), then the larger the y_hat, the higher the error (higher confidence in incorrect prediction). We can represent this idea using the log function:</br></br>
+</br> -log x: </br></br>
+<img src = "Useful Functions/-log(x).png"></br></br>
+</br> -log(1-x): </br></br>
+<img src = "Useful Functions/-log(1-x).png"></br></br>
+
+</br></br></br></br>
 <img src = "Useful Functions/8. Backprop1.png"></br></br></br></br>
 <img src = "Useful Functions/9. Backprop2.png"></br></br></br></br>
 <img src = "Useful Functions/10. Backprop3.png"></br></br></br></br>
