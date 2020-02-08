@@ -49,6 +49,9 @@ In a formal definition, if y_hat is the same as y (correctly classify), then the
 <img src = "Useful Functions/-log(x).png"></br></br>
 </br> -log(1-x): </br></br>
 <img src = "Useful Functions/-log(1-x).png"></br></br>
+Observe the function -log(y_hat), the closer y_hat to 1, the lower the error, and closer y_hat to 0, the higher the error. This happens when the model is producing correct prediction. Similarly, in the function -log(1-y_hat), the closer y_hat to 1, the higher the error, and closer y_hat to 0, the lower the error. This happens when the model is producing incorrect prediction.</br></br>
+
+By having a cost function as an objective for the optimization, we can apply various optimization technique on the function to minimize the cost, thus improving the model's performance.
 
 </br></br></br></br>
 <img src = "Useful Functions/8. Backprop1.png"></br></br></br></br>
