@@ -51,9 +51,10 @@ In a formal definition, if y_hat is the same as y (correctly classify), then the
 <img src = "Useful Functions/-log(1-x).png"></br></br>
 Observe the function -log(y_hat), the closer y_hat to 1, the lower the error, and closer y_hat to 0, the higher the error. This happens when the model is producing correct prediction. Similarly, in the function -log(1-y_hat), the closer y_hat to 1, the higher the error, and closer y_hat to 0, the lower the error. This happens when the model is producing incorrect prediction.</br></br>
 
-By having a cost function as an objective for the optimization, we can apply various optimization technique on the function to minimize the cost, thus improving the model's performance.
+7. By having a cost function as an objective for the optimization, we can apply various optimization technique on the function to minimize the cost, thus improving the model's performance.
 
 </br></br></br></br>
+Now we have the optimization objective: the Cost function. Recall that the parameters we need to optimize are W_l and b_l, with l = 1, 2,..., L, where L is the total number of layers in the neural network. To optimize such parameters, the most basic way to do is to apply gradient descent on the cost function, and then update each parameteres using such gradients. The formulas for computing gradient descent are the formulas below, all of which can be easily proven using matrix calculus:</br></br>
 <img src = "Useful Functions/8. Backprop1.png"></br></br></br></br>
 <img src = "Useful Functions/9. Backprop2.png"></br></br></br></br>
 <img src = "Useful Functions/10. Backprop3.png"></br></br></br></br>
