@@ -13,7 +13,6 @@ Some hyperparameters which I use during training:
 + **mini_batch size** = 2^8.
 
 **Explanation of What behind the scene (How Neural Network learns and How to implement it from scratch)**</br></br>
-**To be updated** (I have too many quizzes on school :(()</br></br></br></br>
 <img src = "Useful Functions/Neural Network.png"></br></br>
 1) First of all, we perform simple forward propagation using the initialized parameters to get the output. To keep everything simple, for now we only consider a single vector representing a single training example. We feed that vector as an input to the neural network to get the output. </br></br>
 Suppose a_l_i is the activation of the training data i-th at layer l-th in the neural network. In our convention, a_0_i is the input data for the training example i-th (or a_0_i = x_i). In each layer, the feature vector from layer l-1 is mapped to a new feature vector at layer l. We can perfrom each step of mapping from layer l-1 to layer l using the formula below:  </br></br>
@@ -63,6 +62,4 @@ By having a cost function as an objective for the optimization, we can apply var
 
 8. After finding the correct gradients for each parameters, the final step is to update each parameters: </br></br>
 <img src = "Useful Functions/Update1.png"></br></br></br></br>
-<img src = "Useful Functions/Update2.png"></br></br></br></br>
-
-**Note**: The functions above are written in LaTEX Math Editor online, you can either use the online editor or use my written functions by going to the folder "Useful functions" -> download
+<img src = "Useful Functions/Update2.png"></br></br></br></br
