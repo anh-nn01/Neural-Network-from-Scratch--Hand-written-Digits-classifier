@@ -62,4 +62,4 @@ By having a cost function as an objective for the optimization, we can apply var
 
 8. After finding the correct gradients for each parameters, the final step is to update each parameters: </br></br>
 <img src = "Useful Functions/Update1.png"></br></br></br></br>
-<img src = "Useful Functions/Update2.png"></br></br></br></br
+<img src = "Useful Functions/Update2.png"></br></br></br>
